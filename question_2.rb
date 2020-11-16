@@ -41,7 +41,7 @@ def prime?(n)
   return true
 end
 
-class RoomSelectorTest < Minitest::Test
+class ClassificateNumberTest < Minitest::Test
   def test_esoterico
     assert_equal 'esoterico', classificate_number(15)
   end
